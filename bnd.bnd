@@ -1,0 +1,11 @@
+Bundle-Name: warproject2
+Bundle-SymbolicName: mavenwar2
+Bundle-Version: 1.0-SNAPSHOT
+Export-Package: mavenwar2.constants
+Web-ContextPath: /warproject2
+-jsp: *.jsp,*.jspf
+-plugin.jsp: com.liferay.ant.bnd.jsp.JspAnalyzerPlugin
+-plugin.npm: com.liferay.ant.bnd.npm.NpmAnalyzerPlugin
+-plugin.resourcebundle: com.liferay.ant.bnd.resource.bundle.ResourceBundleLoaderAnalyzerPlugin
+-plugin.sass: com.liferay.ant.bnd.sass.SassAnalyzerPlugin
+-sass: *
